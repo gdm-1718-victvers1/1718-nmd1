@@ -159,7 +159,7 @@ main{
     color: rgb(17, 59, 124);
     text-transform: uppercase;
     position: relative;
-    /*padding-left: 10px;*/
+    padding-bottom: 5px;
 }
 
 .wrapper-1 h2:before, .wrapper-1 h3:before{
@@ -195,7 +195,7 @@ main{
     font-family: 'neou';
     margin-left: 115px;
     position: relative;
-    top: 40px;
+    top: 50px;
 }
 
 .bar-box{
@@ -234,11 +234,11 @@ main{
     float: left;
     background: pink;
     background: white;
-    height: 18px;
+    height: 10px;
     width: calc(100% - 101px);
     border: 1px solid rgb(17, 59, 124);
     border-left: none;
-    margin-top: 40px;
+    margin-top: 44px;
     transition: all 0.3s;
 }
 
@@ -250,7 +250,7 @@ main{
 }
 
 .box-one .bar .fill{
-    width: 60%;
+    width: 65%;
 }
 
 .box-two .bar .fill{
@@ -266,7 +266,7 @@ main{
 }
 
 .box-five .bar .fill{
-    width: 60%;
+    width: 70%;
 }
 
 .box-six .bar .fill{
@@ -337,12 +337,10 @@ footer > div div p i{
 footer > div div:hover{
     transition: all 0.3s;
     transform: scale(1.1);
-    border: 1px solid rgb(86, 143, 230);
 }
 
 footer > div div:hover p i{
     transition: all 0.3s;
-    color: rgb(86, 143, 230);
 }
 
 footer h3{
@@ -419,10 +417,15 @@ footer > p{
 
     .wrapper-1 h4{
         margin-left: 125px;
+        top: 42px;
     }
 }
 
 @media screen and (max-width: 900px) {
+    nav{
+        font-size: 2.6vw;
+    }
+
     .wrapper-1 h2, .wrapper-1 h3{
         padding-left: 30px;
     }
@@ -435,11 +438,9 @@ footer > p{
         padding-left: 30px;
         padding-right: 60px;
     }
-}
 
-@media screen and (max-width: 900px){
-    nav{
-        font-size: 2.6vw;
+    .wrapper-1 h4{
+        margin-left: 125px;
     }
 }
 
@@ -450,6 +451,10 @@ footer > p{
 
     nav{
         font-size: 3vw;
+    }
+
+    .wrapper-1 h4{
+        margin-left: 115px;
     }
 }
 
@@ -466,6 +471,10 @@ footer > p{
 
     nav{
         font-size: 3vw;
+    }
+
+    .wrapper-1 h4{
+        margin-left: 110px;
     }
 }
 
@@ -513,7 +522,7 @@ footer > p{
     }
 
     .wrapper-1 h4{
-        margin-left: 100px;
+        margin-left: 105px;
         font-size: 14px;
     }
 }
