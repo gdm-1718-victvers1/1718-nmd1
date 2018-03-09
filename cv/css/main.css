@@ -189,34 +189,7 @@ main{
     height: 100px;
     margin: 15px 0;
 }
-/*
-.bar-box:hover .ico-box{
-    transition: all 0.3s;
-    border-color: rgb(86, 143, 230);
-    transform: scale(1.1);
-}
 
-.bar-box:hover .ico-box p i{
-    transition: all 0.3s;
-    color: rgb(86, 143, 230);
-}
-
-.bar-box:hover .ico-box{
-    transition: all 0.3s;
-    border-color: rgb(86, 143, 230);
-    transform: scale(1.1);
-}
-
-.bar-box:hover .bar{
-    transition: all 0.3s;
-    border-color: rgb(86, 143, 230);
-}
-
-.bar-box:hover .bar .fill{
-    transition: all 0.3s;
-    background: rgb(86, 143, 230);
-}
-*/
 .bar-box .ico-box{
     height: 98px;
     width: 98px;
