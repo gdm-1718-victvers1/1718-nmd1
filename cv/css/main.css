@@ -337,8 +337,8 @@ footer > p{
     text-align: center; 
     text-decoration: none;
     position: fixed;
-    bottom: 75px;
-    right: 75px;
+    bottom: 25px;
+    right: 25px;
     display: none;
     z-index: 999;
     font-size: 30px;
@@ -363,6 +363,33 @@ footer > p{
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 950px) { 
+    .bar-box{
+        width: 90%;
+        height: 70px;
+        margin: 15px 0;
+        margin-left: 5%;
+    }
+
+    .bar-box .ico-box{
+        height: 70px;
+        width: 70px;
+    }
+
+    .bar-box .ico-box p{
+        font-size: 28px;
+    }
+
+    .bar-box .bar{
+        height: 8px;
+        margin-top: 30px;
+    }
+
+    .wrapper-1 h4{
+        margin-left: 125px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .wrapper-1 h2, .wrapper-1 h3{
         padding-left: 30px;
@@ -378,14 +405,19 @@ footer > p{
     }
 }
 
+@media screen and (max-width: 900px){
+    nav{
+        font-size: 2.6vw;
+    }
+}
+
 @media screen and (max-width: 700px) {
     nav ul li{
         padding: 5px 10px;
     }
 
-    .scrolltotop{
-        bottom: 25px;
-        right: 25px;
+    nav{
+        font-size: 3vw;
     }
 }
 
@@ -401,13 +433,13 @@ footer > p{
     }
 
     nav{
-        font-size: 3.2vw;
+        font-size: 3vw;
     }
 }
 
 @media screen and (max-width: 450px) {
     nav{
-        font-size: 3.4vw;
+        font-size: 2.8vw;
     }
 
     header h1{
@@ -446,5 +478,10 @@ footer > p{
         transform: scale(0.8);
         bottom: 15px;
         right: 15px;
+    }
+
+    .wrapper-1 h4{
+        margin-left: 100px;
+        font-size: 14px;
     }
 }
