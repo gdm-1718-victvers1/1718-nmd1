@@ -190,7 +190,12 @@ main{
 }
 
 .wrapper-1 h4{
-
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'neou';
+    margin-left: 115px;
+    position: relative;
+    top: 40px;
 }
 
 .bar-box{
@@ -338,7 +343,6 @@ footer > p{
     z-index: 999;
     font-size: 30px;
     background: rgb(17, 59, 124);
-    border: 1px solid white;
     transition: all 0.3s;
 }
 
@@ -357,14 +361,7 @@ footer > p{
 .scrolltotop:hover{
     transition: all 0.3s;
     transform: scale(1.1);
-    border: 1px solid rgb(86, 143, 230);
 }
-
-.scrolltotop:hover i{
-    transition: all 0.3s;
-    color: rgb(86, 143, 230);
-}
-
 
 @media screen and (max-width: 900px) {
     .wrapper-1 h2, .wrapper-1 h3{
