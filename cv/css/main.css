@@ -30,12 +30,12 @@ body{
 }
 
 @font-face{
-    src: url('../fonts/trench/trench.ttf');
+    src: url('../fonts/trench/trench.ttf'), url('../fonts/trench/trench.otf');
     font-family: 'trench';
 }
 
 @font-face{
-    src: url('../fonts/neou/neou-bold.ttf');
+    src: url('../fonts/neou/neou-bold.ttf'), url('../fonts/neou/neou-bold.otf');
     font-family: 'neou';
 }
 
