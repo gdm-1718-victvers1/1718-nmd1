@@ -9,6 +9,10 @@ html{
     background: rgb(17, 59, 124);
 }
 
+body{
+    background: white;
+}
+
 /* scrollbar */
 #bar-style::-webkit-scrollbar-track{
     width: 14px;
@@ -115,6 +119,7 @@ header p{
 
 main{
     height: auto;
+    background: white;
 }
 
 .profile-box{
