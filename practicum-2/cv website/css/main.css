@@ -31,6 +31,11 @@
     font-family: 'neou';
 }
 
+@font-face{
+    src: url('../fonts/futura/futura light bt.ttf');
+    font-family: 'futura';
+}
+
 header {
     position: relative;
     height: 600px;
@@ -81,7 +86,7 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-    color: rgb(247, 85, 10);
+    color: rgb(86, 143, 230);
 }
 
 header h1{
@@ -145,7 +150,7 @@ main{
     color: rgb(17, 59, 124);
     text-transform: uppercase;
     position: relative;
-    padding-left: 10px;
+    /*padding-left: 10px;*/
 }
 
 .wrapper-1 h2:before, .wrapper-1 h3:before{
@@ -154,7 +159,6 @@ main{
     width: 75px;
     height: 2px;
     bottom: 0;
-    left: 10px;
     border-bottom: 1px solid rgb(17, 59, 124);
 }
 
@@ -171,14 +175,98 @@ main{
 .wrapper-1 p{
     color: rgb(27, 27, 27);
     padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 22px;
+    line-height: 1.1;
+    font-family: 'futura';
+}
+
+.wrapper-1 h4{
+
+}
+
+.bar-box{
+    width: 100%;
+    height: 100px;
+    margin: 15px 0;
+}
+
+.bar-box:hover .ico-box{
+    transition: all 0.3s;
+    border-color: rgb(86, 143, 230);
+    transform: scale(1.1);
+}
+
+.bar-box:hover .ico-box p i{
+    transition: all 0.3s;
+    color: rgb(86, 143, 230);
+}
+
+.bar-box:hover .ico-box{
+    transition: all 0.3s;
+    border-color: rgb(86, 143, 230);
+    transform: scale(1.1);
+}
+
+.bar-box:hover .bar{
+    transition: all 0.3s;
+    border-color: rgb(86, 143, 230);
+}
+
+.bar-box:hover .bar .fill{
+    transition: all 0.3s;
+    background: rgb(86, 143, 230);
+}
+
+.bar-box .ico-box{
+    height: 98px;
+    width: 98px;
+    border: 1px solid rgb(17, 59, 124);
+    background: white;
+    float: left;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.bar-box .ico-box p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+.bar-box .ico-box p i{
+    color: rgb(17, 59, 124);
+    transition: all 0.3s;
+}
+
+.bar-box .bar{
+    float: left;
+    background: pink;
+    background: white;
+    height: 18px;
+    width: calc(100% - 101px);
+    border: 1px solid rgb(17, 59, 124);
+    border-left: none;
+    margin-top: 40px;
+    transition: all 0.3s;
+}
+
+.bar-box .bar .fill{
+    background: rgb(17, 59, 124);
+    width: 80%;
+    height: 100%;
+    transition: all 0.3s;
 }
 
 footer{
     height: 400px;
     background-color: rgb(17, 59, 124);
     position: relative;
+    margin-top: 50px;
 }
 
 .footer-svg {
@@ -230,12 +318,12 @@ footer > div div p i{
 footer > div div:hover{
     transition: all 0.3s;
     transform: scale(1.1);
-    border: 1px solid rgb(247, 85, 10);
+    border: 1px solid rgb(86, 143, 230);
 }
 
 footer > div div:hover p i{
     transition: all 0.3s;
-    color: rgb(247, 85, 10);
+    color: rgb(86, 143, 230);
 }
 
 footer h3{
@@ -257,8 +345,8 @@ footer > p{
 /* ga naar 'top of page' knop */
 
 .scrolltotop{
-    width: 50px; 
-    height: 50px; 
+    width: 48px; 
+    height: 48px; 
     text-align: center; 
     text-decoration: none;
     position: fixed;
@@ -267,18 +355,34 @@ footer > p{
     display: none;
     z-index: 999;
     font-size: 30px;
-    border: 1px solid rgb(247, 85, 10);
-  }
+    background: rgb(17, 59, 124);
+    border: 1px solid white;
+    transition: all 0.3s;
+}
 
-  .scrolltotop i{
-    color: rgb(247, 85, 10);
+.scrolltotop i{
+    transition: all 0.3s;
+    color: rgb(5, 33, 75);
+    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -60%);
     padding: 0;
     margin: 0;
-  }
+}
+
+.scrolltotop:hover{
+    transition: all 0.3s;
+    transform: scale(1.1);
+    border: 1px solid rgb(86, 143, 230);
+}
+
+.scrolltotop:hover i{
+    transition: all 0.3s;
+    color: rgb(86, 143, 230);
+}
+
 
 @media screen and (max-width: 900px) {
     .wrapper-1 h2, .wrapper-1 h3{
