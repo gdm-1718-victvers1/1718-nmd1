@@ -244,9 +244,41 @@ main{
 
 .bar-box .bar .fill{
     background: rgb(17, 59, 124);
-    width: 80%;
+    width: 0%;
     height: 100%;
     transition: all 0.3s;
+}
+
+.box-one .bar .fill{
+    width: 60%;
+}
+
+.box-two .bar .fill{
+    width: 65%;
+}
+
+.box-three .bar .fill{
+    width: 80%;
+}
+
+.box-four .bar .fill{
+    width: 75%;
+}
+
+.box-five .bar .fill{
+    width: 60%;
+}
+
+.box-six .bar .fill{
+    width: 85%;
+}
+
+.box-seven .bar .fill{
+    width: 75%;
+}
+
+.box-eight .bar .fill{
+    width: 95%;
 }
 
 footer{
