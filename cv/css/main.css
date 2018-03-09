@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+html{
+    background: rgb(17, 59, 124);
+}
+
 /* scrollbar */
 #bar-style::-webkit-scrollbar-track{
     width: 14px;
